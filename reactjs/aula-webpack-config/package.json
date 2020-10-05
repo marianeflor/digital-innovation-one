@@ -1,0 +1,28 @@
+{
+  "name": "aula-webpack-config",
+  "version": "1.0.0",
+  "description": "npm init -y   npm i --save-dev webpck webpack-cli npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode poduction",
+    "dev": "webpack --mode development",
+    "start:dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
